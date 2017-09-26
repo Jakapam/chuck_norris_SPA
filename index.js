@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     })
   });
 
-var baseURL = 'http://api.icndb.com'
+var baseURL = 'https://api.icndb.com'
 
 //functions to create single joke
 function getRandomFact() {
