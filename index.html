@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title id = "browser_title">Chuck Norris FACTS!!!</title>
+    <script src ="index.js"></script>
+  </head>
+  <body>
+    <div id="form" class="col-sm-4">
+      <h1 id="title" class="rainbow">Chuck Norris Facts</h1>
+      <button  id="random_fact" name="button" class="btn btn-default" value = "1">Random Fact</button><br>
+      <div class="input-group col-sm-5">
+        <input type="number" id="multi_fact" class="form-control" min= 0 max = 10>
+          <span class="input-group-btn">
+            <button id="multi_fact_button" class="btn btn-default" name="button">
+              Many Facts
+            </button>
+          </span>
+        </input>
+      </div>
+      <br><br>
+      <form id="chuckNorrifier" action="index.html" method="post">
+        <input id="first_name" type="text" placeholder="First Name"></input><br>
+        <input id="last_name" type="text" Placeholder="Last Name"></input><br>
+        <input type="submit" class="btn btn-danger" value="Chuck Norrify Yourself">
+      </form>
+  </div>
+    <br>
+  <div id="display" class="col-sm-8">
+      <ul id="facts_display">
+
+      </ul>
+  </div>
+  </body>
+</html>

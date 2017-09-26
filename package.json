@@ -1,0 +1,25 @@
+{
+  "name": "chuck_norris_spa",
+  "version": "1.0.0",
+  "description": "A single page application for chuck norris facts",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakapam/chuck_norris_SPA.git"
+  },
+  "keywords": [
+    "chuck",
+    "norris"
+  ],
+  "author": "jakapam, reynin14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jakapam/chuck_norris_SPA/issues"
+  },
+  "homepage": "https://github.com/Jakapam/chuck_norris_SPA#readme"
+}
