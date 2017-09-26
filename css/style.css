@@ -19,6 +19,10 @@ button,input{
   letter-spacing: 2px;
 }
 
+#multi_fact{
+  text-align:center;
+}
+
 #facts_display{
   color: white;
 }
