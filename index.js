@@ -56,10 +56,14 @@ function appendMultiDiv(divArray){
 }
 
 function chuckNorrify(){
-  if(!chuckNorrified){
+  firstName = document.getElementById("first_name").value;
+  lastName = document.getElementById("last_name").value;
+
+  if (firstName == "" || lastName == "") {
+    alert("Sorry, we need your first and last name to Chuck Norrify you")
+  }else if(!chuckNorrified){
     chuckNorrified = true;
-    firstName = document.getElementById("first_name").value;
-    lastName = document.getElementById("last_name").value;
+
     let chuckAry = [].slice.call(document.querySelectorAll(".chuckFact"));
     document.getElementById('title').innerHTML = document.getElementById('title').innerHTML.replace("Chuck Norris", firstName+ " " +lastName);
     document.getElementById('browser_title').innerHTML = document.getElementById('browser_title').innerHTML.replace("Chuck Norris", firstName+ " " +lastName);
@@ -69,7 +73,6 @@ function chuckNorrify(){
       fact.innerHTML = fact.innerHTML.replace(/chuck/g, firstName)
       fact.innerHTML = fact.innerHTML.replace(/norris/g, lastName)
     })
-
     document.getElementById("first_name").value = ""
     document.getElementById("last_name").value = ""
   } else{
